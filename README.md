@@ -1,21 +1,21 @@
-# Project Title
-Loan Qualifier Application
+## Loan Qualifier Application
+
 This Project is about the Loan Qualifier Application in the fintech lending startup. In this project variety of functions have been created to identify potential users who become eligible for getting loan on the basis of some pre conditioned acceptance criteria from the list of banks. 
 In this Application user can get list of lending insitutions from where he/she gets the desired loan for their various needs.They do not need to go to banks in person or individual platform of each lending insitution as they get all the details and result in one platform just by providing some inputs.
 
 ---
 
-## Technologies
+## Technologies Used
 
 To develop this application I have used Python as my programming language.
-I have also used various python libraries -Csv, fire,questionary,path.Importing the needed library helped me by saving time to write many functions.
+I have also used various python libraries - 'csv', 'fire','questionary','path'.Importing the needed library helped me by saving time to write many functions.
 I have used visual code to read,write and run the program created.
 This programme can be run on windows operating system,linux operating system and mac os operating system. 
 
 ---
 
 ## Installation Guide
-image.png
+![alt text] 
 
 "BLOCK OF CODE USED TO INSTALL LIBRARIES AND ALSO IMPORTED MANY FUNCTIONS FROM THE HELPING FILE"
 import csv
