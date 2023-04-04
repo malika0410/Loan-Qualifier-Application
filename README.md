@@ -46,6 +46,45 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 This project can be used to find out list of lending institution may provide loan to some qualified seekers on the basis of certain criterias.
 When the user provides all the information to find out their eligibilty this program runs behind to check their eligibilty and return the result of the lending institutions who may provide loans to them.
 
+![alt text](https://github.com/malika0410/Loan-Qualifier-Application/blob/main/main%20function%20code%20screenshot.png)
+
+def load_bank_data():
+    """Ask for the file path to the latest banking data and load the CSV file.
+
+    Returns:
+        The bank data from the data rate sheet CSV file.
+    """
+
+    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()  
+    csvpath = Path(csvpath)
+    if not csvpath.exists():
+        sys.exit(f"Oops! Can't find this path: {csvpath}")
+
+    return load_csv(csvpath)
+    
+    
+def get_applicant_info():
+    """Prompt dialog to get the applicant's financial information.
+
+    Returns:
+        Returns the applicant's financial information.
+    """
+
+    credit_score = questionary.text("What's your credit score?").ask()
+    debt = questionary.text("What's your current amount of monthly debt?").ask()
+    income = questionary.text("What's your total monthly income?").ask()
+    loan_amount = questionary.text("What's your desired loan amount?").ask()
+    home_value = questionary.text("What's your home value?").ask()
+
+    credit_score = int(credit_score)
+    debt = float(debt)
+    income = float(income)
+    loan_amount = float(loan_amount)
+    home_value = float(home_value)
+
+    return credit_score, debt, income, loan_amount, home_value   
+
+
 
 ---
 
