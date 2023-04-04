@@ -1,0 +1,9 @@
+    1  history 50 > terminal_history.txt
+    2  history
+    3  cd D:
+    4  cd D:/All_challenges/Assignment_2/Loan-Qualifier-Application
+    5  history 5
+    6  history 50
+    7  clear
+    8  history 50
+    9  history 50 > terminal_history.txt
