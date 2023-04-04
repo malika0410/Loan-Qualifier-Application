@@ -43,13 +43,11 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+This project can be used to find out list of lending institution may provide loan to some qualified seekers on the basis of certain criterias.
+When the user provides all the information to find out their eligibilty this program runs behind to check their eligibilty and return the result of the lending institutions who may provide loans to them.
+
 
 ---
-
-
-
-
 
 
 ## Contributors
