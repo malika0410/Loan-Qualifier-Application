@@ -54,8 +54,9 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
-
+Malika Ajmera
+Email- ajmera.malika@gmail.com
+https://www.linkedin.com/in/malika-kasliwal-ajmera-a36006111/
 ---
 
 ## License
