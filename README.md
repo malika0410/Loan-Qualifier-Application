@@ -15,7 +15,9 @@ This programme can be run on windows operating system,linux operating system and
 ---
 
 ## Installation Guide
-![alt text] 
+![alt text](https://github.com/malika0410/Loan-Qualifier-Application/blob/main/installation%20screenshot.png)
+
+![alt text](https://github.com/malika0410/Loan-Qualifier-Application/blob/main/imported_files.png) 
 
 "BLOCK OF CODE USED TO INSTALL LIBRARIES AND ALSO IMPORTED MANY FUNCTIONS FROM THE HELPING FILE"
 import csv
